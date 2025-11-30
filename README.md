@@ -61,11 +61,11 @@ docker compose up -d
 ## Usage
 After running the start command, wait approximately 30 seconds for the application to initialize.
 
- - **Open your web browser.
+ - Open your web browser.
 
- - **Navigate to http://localhost:5678 (or http://<YOUR_SERVER_IP>:5678).
+ - Navigate to http://localhost:5678 (or http://<YOUR_SERVER_IP>:5678).
 
- - **Log in using the Basic Auth username and password defined in your .env file.
+ - Log in using the Basic Auth username and password defined in your .env file.
 
 ## Webhook Tunneling
 This setup uses the --tunnel command. This automatically creates a secure tunnel URL (e.g., https://random-name.hooks.n8n.cloud) allowing external services to send webhooks to your local instance. You can see this URL in the n8n interface or logs.
